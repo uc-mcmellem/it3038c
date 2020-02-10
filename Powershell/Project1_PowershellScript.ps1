@@ -1,4 +1,4 @@
-﻿##The first line gets all of the files in the path specified (C:\Users\ in this case
+﻿##The first line gets all of the files in the path specified (C:\Users\ in this case)
 Get-ChildItem -Path C:\Users\ -Recurse |
 ##The second line says only get the files that are greater than 200 MB
 Where-Object {$_.length/1MB -gt 200} | 
