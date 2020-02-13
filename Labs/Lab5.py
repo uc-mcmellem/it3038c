@@ -12,5 +12,5 @@ for letter in word:
             vowels = vowels + 1
     else:
         consonants = consonants + 1
-print("The number of vowels is: ", vowels)
-print("The number of consonants is: ", consonants)
+print("The number of vowels is:", vowels)
+print("The number of consonants is:", consonants)
