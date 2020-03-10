@@ -4,4 +4,3 @@ Get-ChildItem -Path C:\Users\ -Recurse |
 Where-Object {$_.length/1MB -gt 200} | 
 ##Then select the file name, size in MB, an full path and display them in a list
 select name,@{n=”Size in MB”;e={$_.length/1MB}},fullname | Sort-Object -Property "Size in MB" | 
-Out-File -FilePath 'C:\Users\'
