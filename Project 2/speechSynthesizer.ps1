@@ -1,3 +1,4 @@
+Add-Type -AssemblyName system.speech
 #Create the speech synthesizer
 $speak = New-Object system.speech.synthesis.speechsynthesizer
 
